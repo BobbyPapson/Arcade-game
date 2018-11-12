@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    font-size: 1em;
+    background: #191919;
+    color: white;
+}
+
+.infoBar {
+    width: 505px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 4px auto 0 auto;
+    font-size: 1.25em;
+    font-family: 'lato';
+}
+
+.health {
+    width: 35%;
+}
+
+.score {
+    width: 28%;
+}
+
+.hearts {
+    height: 9%;
+    width: 9%;
+    padding: 3px 3px 0px 3px;
+    justify-content: space-around;
+}
+
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-color: #aa7ecd;
+    border-radius: 4px;
+    padding: 2em 4em;
+    background-color: #1c272f;
+    z-index: 1001;
+    width: 505px;
+    display: none;
+    color: #fff;
+    font-family: 'lato';
+}
+
+.modal p {
+    padding: 0em 2em;
+    font-size: 1.12em;
+    font-family: 'lato';
+}
+
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: #191919;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #069F92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'lato';
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #02ccba;
+}
+
+
+/* Class applied to dynamic text that appears below the canvas when player only has 1 life left */
+
+.warning {
+    color: #fff;
+    font-size: 1.5em;
+    font-family: 'lato';
+}
+
+
+/* Overrides these native classes in Sweetalert2 */
+
+.swal2-popup {
+    background: #191919 !important;
+}
+
+.swal2-title {
+    color: #fff !important;
+    font-family: 'lato';
+}
