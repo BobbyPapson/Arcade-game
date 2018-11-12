@@ -1,4 +1,4 @@
-## FEND -  Arcade Game Project (3)
+## FEND -  Arcade Game Project 3
 # Bobby Papson
 This project is for the Udacity Front End NanoDegree Program. Requirements are described at this link: (https://review.udacity.com/#!/rubrics/15/view)
 
@@ -9,7 +9,9 @@ The arcade game is a classic remake of "frogger" in which the player controls a 
 Make it across the street and gather as many tokens as possible, racking up points and surviving numerous rounds
 
 ## How to Play
-The game automatically begins once the page loads and the enemy bugs start crawling across the screen at different paces. The player can use the arrow buttons on their keyboard in order to navigate forward, backwards, and side to side. The player needs to make it all the way across the street without colliding with enemy bugs. 
+* The game can be played here - https://bobbypapson.github.io/
+* If you want to run the game locally, you can clone or download the project files and run the "index.html" file
+* The game automatically begins once the page loads and the enemy bugs start crawling across the screen at different paces. The player can use the arrow buttons on their keyboard in order to navigate forward, backwards, and side to side. The player needs to make it all the way across the street without colliding with enemy bugs to earn points and move forward to the next level. Collecting gems, keys, and hearts also gives the player bonus points as well as lives!
 
 ## Contributions
 * Levels popup modal - https://sweetalert2.github.io/
